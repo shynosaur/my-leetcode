@@ -8,7 +8,7 @@ use extra space
 class Solution {
 public:
     bool isPalindrome(int x) {
-		if(x < 0) return 0;
+		if(x < 0) return 0;                     // negative number is not palindrome
 		if(x == 0) return 1;
 	    int before[10],after[10];
 		int cnt = 0;

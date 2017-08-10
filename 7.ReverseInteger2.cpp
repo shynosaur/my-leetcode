@@ -1,6 +1,6 @@
 /*
 2.Reverse Integer
-long long
+use long long
 2017/8/5
 */
 

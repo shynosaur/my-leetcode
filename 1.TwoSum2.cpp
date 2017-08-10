@@ -1,6 +1,7 @@
 /*
 1.Two Sum
-one-pass map&two-pass map
+one-pass map
+two-pass map
 2017/8/4
 */
 

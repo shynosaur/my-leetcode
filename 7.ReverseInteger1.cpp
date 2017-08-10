@@ -10,10 +10,7 @@ public:
     int reverse(int x) {
 		if(x != 0&& x != 2147483648){
             int arr[10];
-		    int tmp = x;
-		    if(x < 0){
-			    tmp = 0 - tmp;
-		    }
+		    int tmp = abs(x);
 		    int cnt = 0;
 		    while(tmp > 0){
 			    arr[cnt++] = tmp % 10;
