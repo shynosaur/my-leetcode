@@ -13,7 +13,6 @@ public:
 		/*
 		  Here is the one-pass map.
 		  Using fuction insert(),we can not insert duplicate elements successfully.
-		  Because the array is monotonic increasing,we at first insert smaller elements.
 		  In this case,once we find such "n",we can make certain that n is smaller than i,
 		  for that n which is greater than i has not been inserted yet.
 		  Hence,we need to output n first and then i.
